@@ -130,8 +130,8 @@
         <Property value="" ref="ng-repeat" pref="9"/>
       </Object>
     </ObjectGroup>
-    <ObjectGroup ref="KIDS">
-      <Object frame="" ref="KIDS">
+    <ObjectGroup ref="KIDS2">
+      <Object frame="" ref="KIDS2">
         <Property value="" ref="name" pref="1"/>
         <Property value="" ref="id" pref="2"/>
         <Property value="KIDS" ref="link_text" pref="3"/>
