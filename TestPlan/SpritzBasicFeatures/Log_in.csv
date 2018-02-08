@@ -1,0 +1,5 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,username,"Click the [<Object>] ",Click,,,E-Commerce
+2,username,Enter the value [<Data>] in the Field [<Object>],Set,LogIn_Cred:Username,,E-Commerce
+3,password,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,LogIn_Cred:Password,,E-Commerce
+4,Login,"Click the [<Object>] ",Click,,,E-Commerce

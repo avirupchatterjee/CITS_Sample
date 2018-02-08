@@ -1,0 +1,6 @@
+Scenario,Flow,Iteration,SubIteration,URL
+SpritzBasicFeatures,BasicWebFlow,1,1,"#gd1"
+SpritzBasicFeatures,LayoutTesting,1,1,"#gd2"
+SpritzEmulators,ChromeEmulator_Iphone5,1,1,"#gd1"
+SpritzEmulators,Iphone5_UserAgent,1,1,"#gd1"
+SpritzEmulators,WebFlow_ChromeRWD,1,1,"#gd1"

@@ -1,0 +1,14 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+"//1",Browser,Print the global data,enterWaitTimeInGlobalDataSheet,@800,,
+2,Browser,Open the Url [<Data>] in the Browser,Open,URL_Global:URL,,
+3,Execute,,SpritzBasicFeatures:Log_in,,,
+4,Execute,,SpritzBasicFeatures:Quantities,,,
+5,Place An Order,"Click the [<Object>] ",Click,,,Ecommerce_Catalog
+6,couponCode,"Click the [<Object>] ",Click,,,Ecommerce_Place
+7,couponCode,Enter the value [<Data>] in the Field [<Object>],Set,@25,,Ecommerce_Place
+8,Proceed With Order,"Click the [<Object>] ",Click,,,Ecommerce_Place
+9,billName,"Click the [<Object>] ",Click,,,Ecommerce_Billing
+10,billName,Enter the value [<Data>] in the Field [<Object>],Set,@Charlie,,Ecommerce_Billing
+11,billAddress,Enter the value [<Data>] in the Field [<Object>],Set,@New York,,Ecommerce_Billing
+12,billPhone,"Click the [<Object>] ",Click,,,Ecommerce_Billing
+"//13",billPhone,Assert if [<Object>] element is displayed,assertElementDisplayed,,,Ecommerce_Billing

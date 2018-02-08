@@ -1,0 +1,10 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://spritz.cognizant.com/login.php,,
+2,Browser,Capture the PageTimings for the Page [<Data>],capturePageTimings,@Spritz_Login,,
+3,User ID,"Click the [<Object>] ",Click,,,Spritz
+4,User ID,Enter the value [<Data>] in the Field [<Object>],Set,@525372,,Spritz
+5,Password,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@Encrypted_Password,,Spritz
+6,Login,"Click the [<Object>] ",Click,,,Spritz
+7,Browser,Capture the PageTimings for the Page [<Data>],capturePageTimings,@Spritz_Home,,
+8,Resources,"Click the [<Object>] ",Click,,,Spritz
+9,Browser,Capture the PageTimings for the Page [<Data>],capturePageTimings,@Spritz_Resources,,

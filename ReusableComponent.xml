@@ -1,0 +1,8 @@
+<Root ref="SpritzDemoProject" type="RC">
+<Folder ref="New Group">
+<Scenario ref="SpritzBasicFeatures">
+<TestCase exeType="Executable" ref="Log_in"/>
+<TestCase exeType="Executable" ref="Quantities"/>
+</Scenario>
+</Folder>
+</Root>

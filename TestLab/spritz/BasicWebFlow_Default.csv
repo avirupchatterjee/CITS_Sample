@@ -1,0 +1,2 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,SpritzFeatures,BasicWebFlow,Single,Failed,Chrome,54,WIN8

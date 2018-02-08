@@ -1,0 +1,17 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,%ECommPage%,,
+2,username,"Click the [<Object>] ",Click,,,E-Commerce_Custom
+3,username,Enter the value [<Data>] in the Field [<Object>],Set,@guest,,E-Commerce_Custom
+4,password,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@Z3Vlc3Q= Enc,,E-Commerce_Custom
+5,Login,"Click the [<Object>] ",Click,,,E-Commerce_Custom
+6,QTY_TENTS,"Click the [<Object>] ",Click,,,Ecommerce_Catalog_Custom
+7,QTY_TENTS,Enter the value [<Data>] in the Field [<Object>],Set,@2,,Ecommerce_Catalog_Custom
+8,QTY_BACKPACKS,Enter the value [<Data>] in the Field [<Object>],Set,@3,,Ecommerce_Catalog_Custom
+9,QTY_GLASSES,Enter the value [<Data>] in the Field [<Object>],Set,@4,,Ecommerce_Catalog_Custom
+10,QTY_SOCKS,Enter the value [<Data>] in the Field [<Object>],Set,@5,,Ecommerce_Catalog_Custom
+11,Place An Order,"Click the [<Object>] ",Click,,,Ecommerce_Catalog_Custom
+12,couponCode,"Click the [<Object>] ",Click,,,Ecommerce_Place_Custom
+13,Browser,Print the global data,fetchGlobalData,@#discount:Discount,,
+14,couponCode,Enter the value [<Data>] in the Field [<Object>],Set,DiscountValue:Discount,,Ecommerce_Place_Custom
+15,couponCode,Check the discount,CheckDiscount,@25,,Ecommerce_Place_Custom
+16,Proceed With Order,"Click the [<Object>] ",Click,,,Ecommerce_Place_Custom

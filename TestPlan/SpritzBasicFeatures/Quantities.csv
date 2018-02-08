@@ -1,0 +1,6 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,QTY_TENTS,"Click the [<Object>] ",Click,,,Ecommerce_Catalog
+2,QTY_TENTS,Enter the value [<Data>] in the Field [<Object>],Set,Quantities:Q1,,Ecommerce_Catalog
+3,QTY_BACKPACKS,Enter the value [<Data>] in the Field [<Object>],Set,Quantities:Q2,,Ecommerce_Catalog
+4,QTY_GLASSES,Enter the value [<Data>] in the Field [<Object>],Set,Quantities:Q3,,Ecommerce_Catalog
+5,QTY_SOCKS,Enter the value [<Data>] in the Field [<Object>],Set,Quantities:Q4,,Ecommerce_Catalog

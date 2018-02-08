@@ -1,0 +1,6 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,%ECommPage%,,
+2,Username," [<Data>] is set in the image [<Object>].",imgWait,@10,,Ecommerce
+3,Username," [<Data>] is set in the image [<Object>].",imgSet,@guest,,Ecommerce
+4,Password," [<Data>] is set in the image [<Object>].",imgSet,@guest,,Ecommerce
+5,Login,[<Object>] image is clicked,imgClick,,,Ecommerce

@@ -1,0 +1,274 @@
+{
+  "id" : "SpritzDemoProject",
+  "name" : "SpritzDemoProject",
+  "attributes" : [ ],
+  "tags" : [ ],
+  "_meta" : [ {
+    "type" : "attribute",
+    "name" : "scenario",
+    "desc" : "High level classification of test requirement/cases grouped together",
+    "ref" : "com.cognizant.spritz.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@smoke",
+    "desc" : "Non-exhaustive set of tests that aim at ensuring that the most important functions work",
+    "ref" : "com.cognizant.spritz.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@uat",
+    "ref" : "com.cognizant.spritz.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@load",
+    "ref" : "com.cognizant.spritz.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "SpritzBasicFeatures",
+    "ref" : "com.cognizant.spritz.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "AngularJS_Support",
+    "ref" : "com.cognizant.spritz.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "ImageBasedTesting",
+    "ref" : "com.cognizant.spritz.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "MobileBasedTesting",
+    "ref" : "com.cognizant.spritz.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "SoapUI_Integration",
+    "ref" : "com.cognizant.spritz.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "SpritzEmulators",
+    "ref" : "com.cognizant.spritz.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "WebPagePerformanceTesting",
+    "ref" : "com.cognizant.spritz.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  } ],
+  "data" : [ {
+    "id" : "AngularJS_Support#AngularJS_Test",
+    "name" : "AngularJS_Test",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "AngularJS_Support"
+    } ]
+  }, {
+    "id" : "ImageBasedTesting#image_Web",
+    "name" : "image_Web",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "ImageBasedTesting"
+    } ]
+  }, {
+    "id" : "ImageBasedTesting#WebAppUsingSikuli",
+    "name" : "WebAppUsingSikuli",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "ImageBasedTesting"
+    } ]
+  }, {
+    "id" : "ImageBasedTesting#WindowsAppUsingSikuli",
+    "name" : "WindowsAppUsingSikuli",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "ImageBasedTesting"
+    } ]
+  }, {
+    "id" : "MobileBasedTesting#Mobile_Browser",
+    "name" : "Mobile_Browser",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "MobileBasedTesting"
+    } ]
+  }, {
+    "id" : "MobileBasedTesting#Mobile_Native",
+    "name" : "Mobile_Native",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "MobileBasedTesting"
+    } ]
+  }, {
+    "id" : "SoapUI_Integration#WebServiceTesting",
+    "name" : "WebServiceTesting",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "SoapUI_Integration"
+    } ]
+  }, {
+    "id" : "SpritzBasicFeatures#BasicWebFlow",
+    "name" : "BasicWebFlow",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "SpritzBasicFeatures"
+    } ]
+  }, {
+    "id" : "SpritzBasicFeatures#ChromeEmulator_Iphone5",
+    "name" : "ChromeEmulator_Iphone5",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "SpritzBasicFeatures"
+    } ]
+  }, {
+    "id" : "SpritzBasicFeatures#CustomCode",
+    "name" : "CustomCode",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "SpritzBasicFeatures"
+    } ]
+  }, {
+    "id" : "SpritzBasicFeatures#CustomProperty_Bing",
+    "name" : "CustomProperty_Bing",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "SpritzBasicFeatures"
+    } ]
+  }, {
+    "id" : "SpritzBasicFeatures#Iphone5_UserAgent",
+    "name" : "Iphone5_UserAgent",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "SpritzBasicFeatures"
+    } ]
+  }, {
+    "id" : "SpritzBasicFeatures#Iterations&SubIterations",
+    "name" : "Iterations&SubIterations",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "SpritzBasicFeatures"
+    } ]
+  }, {
+    "id" : "SpritzBasicFeatures#LayoutTesting",
+    "name" : "LayoutTesting",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "SpritzBasicFeatures"
+    } ]
+  }, {
+    "id" : "SpritzBasicFeatures#Log_in",
+    "name" : "Log_in",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "SpritzBasicFeatures"
+    } ]
+  }, {
+    "id" : "SpritzBasicFeatures#Quantities",
+    "name" : "Quantities",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "SpritzBasicFeatures"
+    } ]
+  }, {
+    "id" : "SpritzBasicFeatures#WebFlow_ChromeRWD",
+    "name" : "WebFlow_ChromeRWD",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "SpritzBasicFeatures"
+    } ]
+  }, {
+    "id" : "SpritzBasicFeatures#WebPagePerformanceTesting",
+    "name" : "WebPagePerformanceTesting",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "SpritzBasicFeatures"
+    } ]
+  } ]
+}

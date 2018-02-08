@@ -1,0 +1,5 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,SpritzEmulators,BasicWebFlow,Single,NoRun,Chrome,Default,Any
+true,SpritzEmulators,WebFlow_ChromeRWD,Single,NoRun,ChromeRWD,Default,Any
+true,SpritzEmulators,ChromeEmulator_Iphone5,Single,NoRun,Emulator_Iphone5,Default,Any
+true,SpritzEmulators,Iphone5_UserAgent,Single,NoRun,Iphone5_UA,Default,Any

@@ -1,0 +1,3 @@
+Scenario,Flow,Iteration,SubIteration,URL
+SpritzBasicFeatures,BasicWebFlow,1,1,"#gd1"
+SpritzBasicFeatures,LayoutTesting,1,1,"#gd2"
